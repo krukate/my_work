@@ -1,0 +1,76 @@
+    1  shutdown -r now
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  shutdown -r now
+    5  sudo rm /etc/apt/preferences.d/nosnap.pref
+    6  sudo apt update
+    7  sudo apt install snapd snapd-xdg-open
+    8  sudo sysytmctl status snapd
+    9  sudo systemctl status snapd
+   10  sudo sysemctl restart snapd
+   11  ssudo systemctl status snapd
+   12  sudo systemctl status snapd
+   13  sudo systemctl restart snapd
+   14  sudo systemctl status snapd
+   15  sudo snap install pycharm-community --classic
+   16  sudo apt-get install python3-setuptools
+   17  sudo apt-get install python3-pip
+   18  sudo apt-get install python3-distutils
+   19  sudo apt-get install python3-tk
+   20  sudo apt-get install python3-venv
+   21  shutdown -r now
+   22  ls
+   23  mkdir mygit
+   24  cd mygit/
+   25  git init
+   26  git config --list
+   27  git config --global user.name "Ekaterina Krupinova"
+   28  git config --global user.email "222774@edu.fa.ru"
+   29  git config --list
+   30  git status
+   31  git add test.py
+   32  git status
+   33  git rm --cached test.py
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m "Initial commit"
+   38  git status
+   39  git add .
+   40  git commit -m "add gitignore"
+   41  git log
+   42  git branch
+   43  git branch test
+   44  git branch
+   45  git branch -D test
+   46  git branch readme
+   47  git branch
+   48  git checkout readme
+   49  git branch
+   50  git status
+   51  git commit -am "added readme"
+   52  git add .
+   53  git commit -m "added readme"
+   54  git status
+   55  git add .
+   56  git commit -m "added gitignore"
+   57  git log
+   58  git branch
+   59  git checkout project
+   60  git branch project
+   61  git checkout project
+   62  git branch
+   63  git log
+   64  git merge project
+   65  git branch -D project
+   66  git branch -D readme
+   67  git status
+   68  git branch new
+   69  git branch
+   70  branch new
+   71  git checkout new
+   72  git init
+   73  git branch -D new
+   74  git checkout master
+   75  git branch -D new
+   76  history >> katya.txt
